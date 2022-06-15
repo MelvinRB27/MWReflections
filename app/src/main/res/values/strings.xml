@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reflections</string>
+    <string name="Title">Reflections of men and women</string>
+    <string name="tbnEnter">Enter</string>
+    <string name="tbnBack">Home</string>
+    <string name="tbnExit">Exit</string>
+    <string name="tbnTextR">Reflections of texts</string>
+    <string name="tbnImageR">Reflections of Images</string>
+    <string name="tbnImage">Images</string>
+    <string name="tbnTexts">Texts</string>
+    <string name="tbnShareI">Share Image</string>
+    <string name="tbnShareT">Share Text</string>
+</resources>

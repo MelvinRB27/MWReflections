@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_textReflection">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNameTR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvGenderTR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvReflection"
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:textAlignment="center"
+            android:hint="Reflection"
+            android:textSize="22sp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/shareImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="shareText"
+            android:text="@string/tbnShareT" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:backgroundTint="@color/black"
+                android:onClick="back"
+                android:text="@string/tbnBack" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:onClick="txRandom"
+                android:text="@string/tbnTexts" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:onClick="exit"
+                android:text="@string/tbnExit" />
+        </GridLayout>
+
+    </GridLayout>
+
+</RelativeLayout>
